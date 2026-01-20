@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/12930
 # 알고리즘: 문자열
 # 작성자: 조은솔
-# 작성일: 2026. 01. 16. 18:45:53
+# 작성일: 2026. 01. 20. 18:05:11
 
 def solution(s):
     answer = s.split(" ")
