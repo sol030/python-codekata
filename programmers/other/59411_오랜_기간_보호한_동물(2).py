@@ -2,14 +2,14 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/59411
 # 작성자: 조은솔
-# 작성일: 2026. 01. 20. 18:21:40
+# 작성일: 2026. 01. 20. 18:23:07
 
 -- 코드를 입력하세요
 SELECT
     i.animal_id,
     i.name
 FROM animal_ins i
-LEFT JOIN animal_outs o
+INNER JOIN animal_outs o
     ON i.animal_id = o.animal_id
 ORDER BY o.datetime - i.datetime DESC
 LIMIT 2;
