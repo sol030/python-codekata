@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/181920
 # 알고리즘: 반복문
 # 작성자: 조은솔
-# 작성일: 2026. 01. 22. 11:26:12
+# 작성일: 2026. 01. 22. 11:34:41
 
 def solution(start_num, end_num):
     answer = []
