@@ -2,7 +2,7 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/133025
 # 작성자: 조은솔
-# 작성일: 2026. 01. 27. 09:33:47
+# 작성일: 2026. 01. 27. 09:35:52
 
 -- 코드를 입력하세요
 SELECT h.flavor
@@ -10,5 +10,5 @@ FROM first_half h
 INNER JOIN icecream_info i
     ON h.flavor = i.flavor 
     AND i.ingredient_type = 'fruit_based'
-WHERE total_order >= 3000
-ORDER BY total_order DESC;
+WHERE h.total_order >= 3000
+ORDER BY h.total_order DESC;
