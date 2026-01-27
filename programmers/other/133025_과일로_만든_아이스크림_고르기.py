@@ -2,7 +2,7 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/133025
 # 작성자: 조은솔
-# 작성일: 2026. 01. 27. 09:33:22
+# 작성일: 2026. 01. 27. 09:33:47
 
 -- 코드를 입력하세요
 SELECT h.flavor
