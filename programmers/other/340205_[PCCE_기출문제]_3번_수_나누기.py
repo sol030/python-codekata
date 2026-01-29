@@ -2,7 +2,7 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/340205
 # 작성자: 조은솔
-# 작성일: 2026. 01. 29. 09:20:13
+# 작성일: 2026. 01. 29. 09:28:41
 
 number = int(input())
 
